@@ -48,7 +48,7 @@ case $1 in
         esac
         ;;
     "download")
-        pacman -Sw
+        pacman -Sw $2
         ;;
     "history")
         cat /var/log/pacman.log
