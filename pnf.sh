@@ -24,6 +24,9 @@ case $1 in
     "search")
         pacman -Ss $2
         ;;
+    "changelog")
+	pacman -Qc $2
+	;;
     "clean")
         case $2 in
             "all")
