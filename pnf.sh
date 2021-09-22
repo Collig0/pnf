@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #The following is a program to replace pacman syntax with that of Fedora's package manager, DNF.
 #This is to help save people from having to memorize pacman's complex syntax, and instead learn one that is far easier to understand and remember.
